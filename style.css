@@ -1,0 +1,86 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Kalam', cursive;
+  background: linear-gradient(to bottom, #d143b2, #a636c7);
+  color: white;
+}
+
+.site-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: 'Kalam', cursive;
+}
+
+/* Hero Layout */
+.hero-section {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero-box {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  max-width: 700px;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Button Style */
+.order-btn {
+  background-color: #a8ff35;
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #8ae624;
+  transform: scale(1.05);
+}
+
+/* Instagram Text */
+.follow-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+/* Materials Button (Bottom Right) */
+.materials-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  color: #d143b2;
+  font-weight: 700;
+  font-family: 'Kalam', cursive;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+
+.materials-btn:hover {
+  background-color: #f3e0ff;
+  color: #a12c91;
+  transform: translateY(-2px);
+}
